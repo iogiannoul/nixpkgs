@@ -10,7 +10,7 @@ in
 
 composableDerivation.composableDerivation {} ( fixed : let inherit (fixed.fixed) version; in {
 
-  version = "5.3.28";
+  version = "5.3.29";
 
   name = "php-${version}";
 
